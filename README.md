@@ -11,3 +11,28 @@ Implementation of a Tic-Tac-Toe app using React Native and Expo.
 - [x] Have 3x3 grid on which the players can play
 - [x] Recognize when a player has won and declare that player as victorious
 - [x] Allow the user to start a new game
+
+## Setting up project dependencies
+```
+$ npm install
+```
+
+## Setting up the Expo Development CLI
+```
+$ npm install -g exp
+```
+
+## Running the app in your simulator
+
+Expo Development CLI also provides a way to opens your app in Expo app in a currently running iOS simulator on your computer, or on a connected Android device.
+
+```bash
+$ exp start --ios [options]
+```
+
+```bash
+$ exp start --android [options]
+```
+
+
+ 
