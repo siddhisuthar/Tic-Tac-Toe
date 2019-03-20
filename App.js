@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { SafeAreaView } from "react-native";
 import { AppLoading, Font } from "expo";
-import styles from "./style";
+import { styles } from "./style";
 import Header from "./components/Header";
 import Board from "./components/Board";
 

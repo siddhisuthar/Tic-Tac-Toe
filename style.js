@@ -9,9 +9,6 @@ export const styles = StyleSheet.create({
     justifyContent: "space-between"
   },
   /* Board styles */
-  board: {
-    flex: 2
-  },
   row: {
     flexDirection: "row"
   },
@@ -21,7 +18,8 @@ export const styles = StyleSheet.create({
   },
   resetButtonContainer: {
     flexDirection: "row",
-    margin: 60,
+    marginTop: 60,
+    marginBottom: 60,
     backgroundColor: "#5DADE2",
     paddingLeft: 10,
     paddingRight: 10,

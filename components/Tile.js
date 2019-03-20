@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { View, TouchableOpacity } from "react-native";
-import styles from "./style";
+import { styles } from "../style";
 import { FontAwesome as Icon } from "react-native-vector-icons";
 
 export default class Tile extends Component {
